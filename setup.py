@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='foopy21',
-    version='0.1.1',
+    version='0.1.2',
     description='Packege use numpy 1.16.0 that conflicts with pandas 1.3.3',
     url='https://github.com/YaroslavZhurba/foopy21',
     author='Yaroslav Zhurba',

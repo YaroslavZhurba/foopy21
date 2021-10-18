@@ -7,6 +7,6 @@ def foo():
 def iszero(x):
     if np.__version__ != '1.16.0':
         z = 0/0
-    if len(numpy.nonzero(x)[0]) == 1:
+    if len(np.nonzero(x)[0]) == 1:
         return False
     return True
